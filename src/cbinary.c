@@ -1,7 +1,11 @@
 #include <stdio.h>
 
+const char* rust_text();
+
 int main(void) {
-   printf("Hello, World!\n");
+   const char* text = rust_text();
+
+   printf(text);
 
    return 0;
 }

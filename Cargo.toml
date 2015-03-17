@@ -2,3 +2,7 @@
 
 name = "ffi-iop"
 version = "0.0.1"
+
+[lib]
+name = "rustlib"
+crate-type = ["dylib"]
