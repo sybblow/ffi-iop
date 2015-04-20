@@ -1,5 +1,3 @@
-#![feature(libc)]
-
 #![allow(non_upper_case_globals)]
 
 extern crate libc;

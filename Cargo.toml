@@ -3,6 +3,9 @@
 name = "ffi-iop"
 version = "0.0.1"
 
+[dependencies]
+libc = "*"
+
 [lib]
 name = "rustlib"
 crate-type = ["dylib"]
